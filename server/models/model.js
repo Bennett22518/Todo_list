@@ -12,7 +12,7 @@ const formSchema = new schema({
 const User = mongoose.model('User',formSchema);
 
 const taskSchema = new mongoose.Schema({
-    email:{ type: String, required: true},
+    // email:{ type: String, required: true},
     text: { type: String, required: true },
     createdAt: { type: Date, default: Date.now },
   });
