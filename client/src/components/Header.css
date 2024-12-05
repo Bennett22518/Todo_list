@@ -1,0 +1,5 @@
+.nav-item.active {
+    color: #007bff !important;  /* You can change the color as needed */
+    font-weight: bold;     
+         /* Optionally make the active item bold */
+  }
